@@ -14,10 +14,12 @@ django-countries==7.2.1
 django-crispy-forms==1.12.0
 django-environ==0.8.1
 django-storages==1.11.1
+dnspython==2.1.0
 filelock==3.0.12
 flake8==3.9.2
 flake8-django==1.1.2
 Flask==2.0.2
+Flask-PyMongo==2.3.0
 gunicorn==20.1.0
 itsdangerous==2.0.1
 Jinja2==3.0.3
@@ -31,6 +33,7 @@ psycopg2-binary==2.9.1
 pycodestyle==2.7.0
 pyflakes==2.3.1
 PyJWT==2.3.0
+pymongo==4.0.1
 python-dateutil==2.8.2
 python3-openid==3.2.0
 pytz==2021.3
