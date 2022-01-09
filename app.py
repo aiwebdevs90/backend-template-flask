@@ -1,5 +1,6 @@
 import os
-from flask import Flask
+from flask import (
+    Flask, flash, render_template, redirect, request, session, url_for)
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 
@@ -19,8 +20,10 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-def hello():
-    return "My Backend Basic Flask Template"
+@app.route("/get_info")
+def get_info():
+    info = mongo.db.info.find()
+    return render_template("info.html", info=info)
 
 
 if __name__ == "__main__":
