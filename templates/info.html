@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template Info</title>
-</head>
-<body>
-    {% for i in info %}
-    <strong>Fullname:</strong> {{ i.fullname }}<br><br>
-    <strong>Position:</strong> {{ i.position }}<br><br>
-    <strong>Company Name:</strong> {{ i.company }}<br><br>
-    <strong>Description:</strong> {{ i.description }}<br>
-    {% endfor %}
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+
+<h2>I am extending the base.html template</h2><br>
+
+{% for i in info %}
+<h3>Database Info</h3>
+<strong>Fullname:</strong> {{ i.fullname }}<br><br>
+<strong>Position:</strong> {{ i.position }}<br><br>
+<strong>Company Name:</strong> {{ i.company }}<br><br>
+<strong>Description:</strong> {{ i.description }}<br>
+{% endfor %}
+
+{% endblock %}
