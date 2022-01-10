@@ -1,0 +1,17 @@
+/* Laptops */
+@media (max-width: 1024px) {}
+
+/* Small Laptops */
+@media (max-width: 991px) {}
+
+/* Tablets */
+@media (max-width: 768px) {}
+
+/* Large Smartphones */
+@media (max-width: 425px) {}
+
+/* Medium Smartphones */
+@media (max-width: 375px) {}
+
+/* Small Smartphones */
+@media (max-width: 320px) {}
