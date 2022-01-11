@@ -45,7 +45,7 @@ description: AI Web Devs is a up and coming Web Development company.
 
 * With the database now created we need to the new repo for the flask app in your github repository page, login in to your github or sign up if you have not already.
 
-* For demo purposes i called my repo backend-template-flask.
+* For demo purposes i called my repo `backend-template-flask-mongoDB`.
 
 * Once the repo is created, open in VSCode or gitpod, for demo purposes i am using VSCode and i cloned the repo to my local computer.
 
